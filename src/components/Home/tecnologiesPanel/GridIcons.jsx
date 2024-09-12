@@ -1,10 +1,10 @@
 import React from "react";
 import { tecnoIconsData } from "./tecnoIconsData";
 
-function GridIcons({ props }) {
+function GridIcons() {
   return (
-    <div className={`${props} py-10 xl:py-20`}>
-      <div className="">
+    <div className={`py-10 xl:py-20`}>
+       <div className="">
         <div className="mb-10">
           <h2 className="text-center text-xl  md:text-2xl">
             Algunas tecnologias con las que estoy familiarizado
@@ -15,7 +15,9 @@ function GridIcons({ props }) {
             const IconComponent = icon.component;
             return (
               <div key={index} className="flex flex-col items-center">
-                <IconComponent  className={`${icon.className} text-4xl sm:text-5xl`} />
+                <IconComponent
+                  className={`${icon.className} text-4xl sm:text-5xl`}
+                />
                 <p className="text-xs ">{icon.name}</p>
               </div>
             );

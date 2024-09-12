@@ -1,4 +1,4 @@
-export const imgLinksData = [
+export const cardsProjectsData = [
   {
     name: "Fake Store",
     url: "https://d33wubrfki0l68.cloudfront.net/66e11f3657f09600085a0dbf/screenshot_2024-09-11-04-41-53-0000.webp",
