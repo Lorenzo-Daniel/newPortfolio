@@ -13,8 +13,13 @@ function ProjetcsSlide() {
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mt-10">
           {imgLinksData.map((icon, index) => {
             return (
-              <a href={icon.href} target="_blank" className="shadow p-3 hover:translate-y-[1px] flex justify-center items-center">
-                <div key={index} className="flex flex-col items-center">
+              <a
+                href={icon.href}
+                key={index}
+                target="_blank"
+                className="shadow p-3 hover:translate-y-[1px] flex justify-center items-center"
+              >
+                <div className="flex flex-col items-center">
                   <Image
                     src={icon.url}
                     width={200}
