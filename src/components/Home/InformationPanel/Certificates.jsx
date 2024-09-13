@@ -9,7 +9,7 @@ import { CircleLoader } from "react-spinners";
 
 const Certificates = ({ isVisible, setIsVisible }) => {
   const [currentImg, setcurrentImg] = useState(React);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(true);
   const images = [
     { name: "React", img: React },
     { name: "JS", img: JS },
