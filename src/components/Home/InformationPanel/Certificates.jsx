@@ -5,10 +5,11 @@ import DW from "@/app/assets/images/certificados/DesarrolloWeb.png";
 import React from "@/app/assets/images/certificados/React.png";
 import Image from "next/image";
 import { IoCloseOutline } from "react-icons/io5";
+import { CircleLoader } from "react-spinners";
 
 const Certificates = ({ isVisible, setIsVisible }) => {
   const [currentImg, setcurrentImg] = useState(React);
-
+  const [isLoaded, setIsLoaded] = useState(false);
   const images = [
     { name: "React", img: React },
     { name: "JS", img: JS },
@@ -35,6 +36,7 @@ const Certificates = ({ isVisible, setIsVisible }) => {
           />
         </div>
         <div className="flex top-4 justify-center sm:justify-start mb-5 gap-2">
+          <CircleLoader loading={isLoaded} />
           {images.map((item, i) => {
             return (
               <div key={i} className="w-24 cursor-pointer">
@@ -44,6 +46,9 @@ const Certificates = ({ isVisible, setIsVisible }) => {
                   height={"auto"}
                   alt={item.name}
                   onClick={() => handleClickImg(item.img)}
+                  onLoad={() => {
+                    setIsLoaded(false);
+                  }}
                 />
               </div>
             );
