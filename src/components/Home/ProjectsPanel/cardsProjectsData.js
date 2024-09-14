@@ -1,13 +1,13 @@
 export const cardsProjectsData = [
   {
+    name: "Nasa APIs",
+    url: "https://d33wubrfki0l68.cloudfront.net/66dbc4b277421e00083b021f/screenshot_2024-09-07-03-14-08-0000.webp",
+    href:"https://luminous-piroshki-829125.netlify.app"
+  },
+  {
     name: "Fake Store",
     url: "https://d33wubrfki0l68.cloudfront.net/66e11f3657f09600085a0dbf/screenshot_2024-09-11-04-41-53-0000.webp",
      href:"https://precious-caramel-78198c.netlify.app"
-  },
-  {
-    name: "Nasa API's",
-    url: "https://d33wubrfki0l68.cloudfront.net/66dbc4b277421e00083b021f/screenshot_2024-09-07-03-14-08-0000.webp",
-    href:"https://luminous-piroshki-829125.netlify.app"
   },
   {
     name: "Drag & Drop",
