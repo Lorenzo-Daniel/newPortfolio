@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-p,
-span {
+
+body {
   @apply text-gray-500;
 }
 

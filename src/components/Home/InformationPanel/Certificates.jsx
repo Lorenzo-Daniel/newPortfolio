@@ -27,19 +27,21 @@ const Certificates = ({ isVisible, setIsVisible }) => {
   };
   return (
     <div className="fixed top-0 left-0 w-full h-full min-h-screen bg-[#08080aee] flex justify-center items-center overflow-scroll">
-      <div className=" max-w-4xl flex flex-col relative p-5 mt-20 ">
-        <div className="flex justify-end mb-2">
+      <CircleLoader loading={isLoaded} color="white" />
+      <div className={` max-w-4xl flex flex-col relative p-5 mt-20  `}>
+        <div
+          className={`flex justify-end mb-2 ${isLoaded ? "hidden" : "block"} `}
+        >
           <IoCloseOutline
             size={30}
-            className="md:absolute right-5 top-5 cursor-pointer text-white text-end"
+            className={`md:absolute right-5 top-5 cursor-pointer text-white text-end`}
             onClick={() => handleClose()}
           />
         </div>
         <div className="flex top-4 justify-center sm:justify-start mb-5 gap-2">
-          <CircleLoader loading={isLoaded} color="white" />
           {images.map((item, i) => {
             return (
-              <div key={i} className="w-24 cursor-pointer">
+              <div key={i} className="w-24 cursor-pointer hover:scale-105 ">
                 <Image
                   src={item.img}
                   width={0}
@@ -59,6 +61,9 @@ const Certificates = ({ isVisible, setIsVisible }) => {
           width={"auto"}
           height={"auto"}
           alt="Selected image"
+          onLoad={() => {
+            setIsLoaded(false);
+          }}
         />
       </div>
     </div>

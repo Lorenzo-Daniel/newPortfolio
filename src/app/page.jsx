@@ -5,7 +5,6 @@ import Hero from "@/components/Home/Hero/Hero";
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-dvw divide-y-2 px-5">
-    
       <Hero />
       <InformationGrid />
       <GridIcons />
