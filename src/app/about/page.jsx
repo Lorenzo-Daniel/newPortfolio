@@ -4,9 +4,10 @@ function About() {
   return (
     <div className="flex justify-center item-center w-dvw p-5">
       <div className=" container max-w-xl mt-10 gap-2 flex flex-col ">
+
         <p>
           Hello, my name is Daniel. I am a passionate and self-taught React
-          developer, although I don't have formal experience in the field,
+          developer, although I don&apos;t have formal experience in the field,
           has invested a significant amount of time honing my skills through
           exercises, courses, and personal projects.
         </p>
@@ -40,7 +41,7 @@ function About() {
         <p>
           My goal is to be part of an environment where I can grow
           professionally, share ideas, collaborate on challenging projects, and
-          contribute to the team's success with everything I have learned so
+          contribute to the team&apos;s success with everything I have learned so
           far.
         </p>
         <p>

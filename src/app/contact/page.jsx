@@ -109,13 +109,13 @@ export const Contact = () => {
     <div className="w-dvw flex flex-col items-center p-3 gap-5">
       <div>
         <div className=" text-xl md:text-3xl mt-10 mb-5">
-          <h1 className="">I'm here to help!</h1>
+          <h1 className="">I&apos;m here to help!</h1>
         </div>
         <div className="text-start min-w-80 max-w-lg">
           <p>
             If you have any questions about my projects, want to discuss a
             collaboration opportunity, or simply want to get in touch, feel free
-            to reach out. I’m always open to new connections and opportunities.
+            to reach out. I&apos;m always open to new connections and opportunities.
             I look forward to hearing from you soon!
           </p>
         </div>
