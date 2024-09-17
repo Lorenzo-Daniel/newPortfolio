@@ -9,7 +9,7 @@ function CardProjects({ item }) {
     <a
       href={href}
       target="_blank"
-      className="shadow p-3 hover:translate-y-[1px] flex justify-center items-center"
+      className=" hover:translate-y-[1px] flex justify-center items-center"
     >
       <div className="flex flex-col items-center">
         <Image
@@ -17,7 +17,7 @@ function CardProjects({ item }) {
           width={200}
           height={100}
           alt={name}
-          className="border"
+          className="border shadow "
         />
         <p className="text-xs md:text-lg">{name}</p>
       </div>

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { IoCloseOutline } from "react-icons/io5";
 import { CircleLoader } from "react-spinners";
 
-const Certificates = ({ isVisible, setIsVisible }) => {
+const ResumeModal = ({ isVisible, setIsVisible }) => {
   const [isLoaded, setIsLoaded] = useState(true);
 
   if (!isVisible) {
@@ -46,4 +46,4 @@ const Certificates = ({ isVisible, setIsVisible }) => {
   );
 };
 
-export default Certificates;
+export default ResumeModal;

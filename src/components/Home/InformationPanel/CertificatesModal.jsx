@@ -7,7 +7,7 @@ import Image from "next/image";
 import { IoCloseOutline } from "react-icons/io5";
 import { CircleLoader } from "react-spinners";
 
-const Certificates = ({ isVisible, setIsVisible }) => {
+const CertificatesModal = ({ isVisible, setIsVisible }) => {
   const [currentImg, setcurrentImg] = useState(React);
   const [isLoaded, setIsLoaded] = useState(true);
   const images = [
@@ -30,7 +30,7 @@ const Certificates = ({ isVisible, setIsVisible }) => {
       <CircleLoader loading={isLoaded} color="white" />
       <div className={` max-w-4xl flex flex-col relative p-5 mt-20  `}>
         <div
-          className={`flex justify-end mb-2 ${isLoaded ? "hidden" : "block"} `}
+          className={`flex justify-end mb-2 ${isLoaded ? "hidden" : "block"}`}
         >
           <IoCloseOutline
             size={30}
@@ -38,7 +38,7 @@ const Certificates = ({ isVisible, setIsVisible }) => {
             onClick={() => handleClose()}
           />
         </div>
-        <div className="flex top-4 justify-center sm:justify-start mb-5 gap-2">
+        <div className={`flex top-4 justify-center sm:justify-start mb-5 gap-2  ${isLoaded ? "hidden" : "block"}`}>
           {images.map((item, i) => {
             return (
               <div key={i} className="w-24 cursor-pointer hover:scale-105 ">
@@ -70,4 +70,4 @@ const Certificates = ({ isVisible, setIsVisible }) => {
   );
 };
 
-export default Certificates;
+export default CertificatesModal;

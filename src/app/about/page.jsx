@@ -5,44 +5,48 @@ function About() {
     <div className="flex justify-center item-center w-dvw p-5">
       <div className=" container max-w-xl mt-10 gap-2 flex flex-col ">
         <p>
-          Hola, Mi nombre es Daniel, soy un desarrollador React apasionado y
-          autodidacta que, aunque no tengo experiencia formal en el campo, he
-          invertido gran parte de mi tiempo en perfeccionar mis habilidades a
-          través de ejercicios, cursos y proyectos personales.
+          Hello, my name is Daniel. I am a passionate and self-taught React
+          developer, although I don't have formal experience in the field,
+          has invested a significant amount of time honing my skills through
+          exercises, courses, and personal projects.
         </p>
         <p>
-          He desarrollado diversos proyectos con React y otras tecnologías como
-          Redux, Tailwind CSS, Firebase, SCSS, Bootstrap, MUI, Styled
-          Components,i18next,entre otras, lo que me ha permitido profundizar en
-          su ecosistema, trabajando con Hooks, ciclos de vida del componente y
-          optimización de componentes. También he utilizado librerías populares
-          como SweetAlert para alertas personalizadas, Toastify para
-          notificaciones, y herramientas como react-spinners y react-datepicker,
-          entre otras.
+          I have developed various projects using React and other technologies
+          such as Redux, Tailwind CSS, Firebase, SCSS, Bootstrap, MUI, Styled
+          Components, i18next, among others. This has allowed me to delve deeply
+          into its ecosystem, working with Hooks, component lifecycle, and
+          component optimization. I have also used popular libraries like
+          SweetAlert for custom alerts, Toastify for notifications, and tools
+          like react-spinners and react-datepicker, among others.
         </p>
         <p>
-        Me he enfocado en comprender a fondo el manejo de APIs, optimizando las interacciones entre el frontend y el backend para asegurar que las aplicaciones sean eficientes y respondan a las necesidades de los usuarios. Además, todos mis desarrollos son full responsive, garantizando una excelente experiencia de usuario en cualquier dispositivo.
+          I have focused on thoroughly understanding API management, optimizing
+          interactions between the frontend and backend to ensure that
+          applications are efficient and meet user needs. Additionally, all my
+          developments are fully responsive, ensuring an excellent user
+          experience on any device.
         </p>
         <p>
-          En este portafolio, encontrarás algunos de mis proyectos más
-          destacados, todos ellos disponibles para desplegar y revisar. Además,
-          puedes ver mi código en mi perfil de GitHub, incluyendo este mismo
-          portafolio, construido con Next.js.
+          In this portfolio, you will find some of my most notable projects, all
+          of which are available for deployment and review. You can also view my
+          code on my GitHub profile, including this very portfolio, built with
+          Next.js.
         </p>
         <p>
-          Estoy especialmente motivado por el aprendizaje continuo y la
-          posibilidad de aportar mis conocimientos en un equipo, buscando
-          siempre mejorar la experiencia de usuario y optimizar el rendimiento
-          de las aplicaciones.
+          I am especially motivated by continuous learning and the opportunity
+          to contribute my knowledge to a team, always striving to enhance user
+          experience and optimize application performance.
         </p>
         <p>
-          Mi objetivo es ser parte de un entorno donde pueda crecer
-          profesionalmente, compartir ideas, colaborar en proyectos desafiantes,
-          y aportar al éxito del equipo con todo lo que he aprendido hasta
-          ahora.
+          My goal is to be part of an environment where I can grow
+          professionally, share ideas, collaborate on challenging projects, and
+          contribute to the team's success with everything I have learned so
+          far.
         </p>
         <p>
-        Estoy convencido de que mi capacidad de aprendizaje y mi entusiasmo me permitirán adaptarme rápidamente y agregar valor desde el primer día. Si tienes alguna consulta o estás interesado en contactarme, no dudes en hacerlo a través del apartado de contacto.
+          I am confident that my ability to learn quickly, my enthusiasm, as
+          well as my tenacity and strong commitment to achieving my goals, will
+          allow me to adapt rapidly and add value from day one.
         </p>
       </div>
     </div>

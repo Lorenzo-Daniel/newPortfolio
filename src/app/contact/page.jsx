@@ -107,16 +107,18 @@ export const Contact = () => {
 
   return (
     <div className="w-dvw flex flex-col items-center p-3 gap-5">
-      <div className=" text-xl md:text-3xl mt-10">
-        <h1>Pongamonos en contacto!</h1>
-      </div>
-      <div className="text-center min-w-80 max-w-96">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-          vitae, possimus, laborum id impedit quia quos, veniam quasi ipsam
-          doloribus omnis. Expedita explicabo culpa libero modi sint dicta dolor
-          doloremque.
-        </p>
+      <div>
+        <div className=" text-xl md:text-3xl mt-10 mb-5">
+          <h1 className="">I'm here to help!</h1>
+        </div>
+        <div className="text-start min-w-80 max-w-lg">
+          <p>
+            If you have any questions about my projects, want to discuss a
+            collaboration opportunity, or simply want to get in touch, feel free
+            to reach out. I’m always open to new connections and opportunities.
+            I look forward to hearing from you soon!
+          </p>
+        </div>
       </div>
       <div className="flex w-dvw justify-center h-full items-center">
         <form

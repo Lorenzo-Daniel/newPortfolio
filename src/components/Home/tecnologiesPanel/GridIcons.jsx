@@ -7,7 +7,7 @@ function GridIcons() {
        <div className="">
         <div className="mb-10">
           <h2 className="text-center text-xl  md:text-2xl">
-            Algunas tecnologias con las que estoy familiarizado
+          Some of the technologies I use to build my applications
           </h2>
         </div>
         <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-12 gap-4 mt-5">

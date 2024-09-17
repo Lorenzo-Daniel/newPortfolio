@@ -5,7 +5,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "d33wubrfki0l68.cloudfront.net",
-      }
+      },      {
+        protocol: "https",
+        hostname: "github.com",
+      },
     ],
   },
 };

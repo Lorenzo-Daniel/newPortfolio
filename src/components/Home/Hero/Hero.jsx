@@ -9,6 +9,7 @@ function Hero() {
         src={avatar}
         width={"auto"}
         alt="avatar"
+        priority={true}
       />
       <div className="flex flex-col justify-center items-center mt-5">
         <h1 className="text-4xl ">Daniel Lorenzo</h1>

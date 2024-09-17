@@ -5,8 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import { GiGiftOfKnowledge } from "react-icons/gi";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { SiFreelancer } from "react-icons/si";
-import CarouselCertificates from "./Certificates";
-import Resume from "./Resume";
+import CertificatesModal from "./CertificatesModal";
+import ResumeModal from "./ResumeModal";
 
 const iconMap = {
   FaGithub,
@@ -16,7 +16,7 @@ const iconMap = {
   SiFreelancer,
 };
 
-function CardLink({ item }) {
+function InformationPanelCard({ item }) {
   const { name, className, text, componentName, link, isLink } = item;
   const IconComponent = iconMap[componentName];
   const [isVisble, setIsVisble] = useState({
@@ -36,11 +36,11 @@ function CardLink({ item }) {
 
   return (
     <div>
-      <CarouselCertificates
+      <CertificatesModal
         isVisible={isVisble.certificates}
         setIsVisible={setIsVisble}
       />
-      <Resume isVisible={isVisble.resume} setIsVisible={setIsVisble} />
+      <ResumeModal isVisible={isVisble.resume} setIsVisible={setIsVisble} />
       {isLink ? (
         <a href={link} target="_blank">
           <div className="flex justify-between items-center p-2 bg-gray-100 rounded sm:h-28 cursor-pointer shadow">
@@ -71,4 +71,4 @@ function CardLink({ item }) {
   );
 }
 
-export default CardLink;
+export default InformationPanelCard;
