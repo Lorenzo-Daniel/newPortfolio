@@ -14,7 +14,7 @@ function Navbar() {
             <span className="hover:text-gray-700">About</span>
           </Link>
           <Link href={"/contact"}>
-            <span className="hover:text-gray-700">contact</span>
+            <span className="hover:text-gray-700">Contact</span>
           </Link>
         </div>
       </nav>

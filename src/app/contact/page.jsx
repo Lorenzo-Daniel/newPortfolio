@@ -153,23 +153,6 @@ export const Contact = () => {
               <p className={success.color}>{success.message} </p>
             </div>
           </div>
-          {/* <CiCircleCheck /> */}
-          {/* <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[#08080a8d]">
-            <div className="border rounded border-green-200 text-center bg-green-100 w-80 h-44 flex justify-center items-center">
-              <div className="text-green-500 p-5">
-                <p>enviado Correctamente!</p>
-                <p>Gracias!</p>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[#08080a8d]">
-            <div className="border rounded border-red-200 text-center bg-red-100 w-80 h-44 flex justify-center items-center">
-              <div className="text-red-500 p-5">
-                <p>Upss! Algo salio mal!</p>
-                <p>Por favor vuelve a intentarlo!</p>
-              </div>
-            </div>
-          </div> */}
         </form>
       </div>
     </div>

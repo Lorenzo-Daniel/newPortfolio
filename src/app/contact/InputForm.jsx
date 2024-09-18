@@ -25,7 +25,7 @@ function InputForm({
   return (
     <>
       {tagName === "input" && (
-        <div className="flex flex-col min-w-72 relative">
+        <div className="flex flex-col max-w-md relative">
           <input
             type={input.type}
             name={input.name}
@@ -44,7 +44,7 @@ function InputForm({
         </div>
       )}
       {tagName === "textarea" && (
-        <div className="flex flex-col min-w-72 relative">
+        <div className="flex flex-col max-w-md relative">
           <textarea
             name={input.name}
             className={tagCLass}
