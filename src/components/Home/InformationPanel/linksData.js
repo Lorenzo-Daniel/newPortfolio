@@ -13,7 +13,7 @@ export const linksData = [
     text: "Take a look at my latest Freelance project.",
     className: "text-[#7892d0] rounded-full",
     isLink: true,
-    link: "https://www.musadeacuarela.com/",
+    link: "https://musadeacuarela.netlify.app/",
   },
   {
     componentName: "GiGiftOfKnowledge",
