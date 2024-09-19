@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "@/app/assets/images/da1.jpg";
+import avatar from "/public/images/da1.jpg";
 import Image from "next/image";
 function Hero() {
   return (

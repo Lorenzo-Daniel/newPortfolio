@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import JS from "@/app/assets/images/certificados/JavaScript.png";
-import DW from "@/app/assets/images/certificados/DesarrolloWeb.png";
-import React from "@/app/assets/images/certificados/React.png";
+import JS from "/public/certificados/JavaScript.png";
+import DW from "/public/certificados/DesarrolloWeb.png";
+import React from "/public/certificados/React.png";
 import Image from "next/image";
 import { IoCloseOutline } from "react-icons/io5";
 import { CircleLoader } from "react-spinners";

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import curriculum from "@/app/assets/images/Currículum English.jpg";
+import curriculum from "/public/images/CV.png";
+
 import Image from "next/image";
 import { IoCloseOutline } from "react-icons/io5";
 import { CircleLoader } from "react-spinners";
@@ -22,10 +23,15 @@ const ResumeModal = ({ isVisible, setIsVisible }) => {
 
       <div className="">
         <div
-          className={`flex justify-end mb-1 cursor-pointer ${
+          className={`flex justify-between mb-1 cursor-pointer ${
             isLoaded ? "hidden" : "block"
           }`}
         >
+            <a href="/pdf/CV-Daniel-Lorenzo.pdf " download>
+              <button className="border border-gray-500 px-1 mb-1  rounded ">
+                Download PDF
+              </button>
+            </a>
           <IoCloseOutline
             size={30}
             className=" text-gray-500"
@@ -38,7 +44,7 @@ const ResumeModal = ({ isVisible, setIsVisible }) => {
             width={800}
             height={600}
             alt="Selected image"
-            onLoad={()=> setIsLoaded(false)}
+            onLoad={() => setIsLoaded(false)}
           />
         </div>
       </div>

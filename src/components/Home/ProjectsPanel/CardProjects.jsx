@@ -18,6 +18,7 @@ function CardProjects({ item }) {
           height={100}
           alt={name}
           className="border shadow "
+          unoptimized
         />
         <p className="text-xs md:text-lg">{name}</p>
       </div>
