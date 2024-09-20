@@ -14,7 +14,7 @@ function ProjetcsGrid() {
           Take a look at the apps I&apos;ve built
           </h2>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mt-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4 mt-10">
           {cardsProjectsData.map((item, i) => {
             return <CardProjects key={i} item={item} />;
           })}
